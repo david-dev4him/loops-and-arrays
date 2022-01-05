@@ -16,15 +16,15 @@ public class Ex_4ParImpar{
 
     int count = 0;
 
-    do{
-      System.out.println("Número: ");
-      numero = scan.nextInt();
+      do {
+        System.out.println("Número: ");
+        numero = scan.nextInt();
 
-      if (numero % 2 == 0) quantPares++;
-      else quantImpares++;
+        if (numero % 2 == 0) quantPares++;
+        else quantImpares++;
 
-      count++;
-    }while(count < quantNumeros);
+        count++;
+      } while(count < quantNumeros);
 
     System.out.println("Quantidade Par: " + quantPares);
     System.out.println("Quantidade Impares: " + quantImpares);
